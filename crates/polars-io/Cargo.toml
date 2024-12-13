@@ -9,13 +9,13 @@ repository = { workspace = true }
 description = "IO related logic for the Polars DataFrame library"
 
 [dependencies]
-polars-core = { workspace = true }
-polars-error = { workspace = true }
-polars-json = { workspace = true, optional = true }
-polars-parquet = { workspace = true, optional = true }
-polars-schema = { workspace = true }
-polars-time = { workspace = true, features = [], optional = true }
-polars-utils = { workspace = true, features = ['mmap'] }
+polars-core = { version = "0.45.1" }
+polars-error = { version = "0.45.1" }
+polars-json = { version = "0.45.1", optional = true }
+polars-parquet = { version = "0.45.1", optional = true }
+polars-schema = { version = "0.45.1" }
+polars-time = { version = "0.45.1", features = [], optional = true }
+polars-utils = { version = "0.45.1", features = ['mmap'] }
 
 ahash = { workspace = true }
 arrow = { workspace = true }
