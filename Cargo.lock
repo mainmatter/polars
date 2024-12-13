@@ -3499,10 +3499,8 @@ dependencies = [
  "brotli",
  "bytemuck",
  "ethnum",
- "flate2",
  "futures",
  "hashbrown",
- "lz4",
  "num-traits",
  "parquet-format-safe",
  "polars-arrow 0.43.1 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -3511,9 +3509,7 @@ dependencies = [
  "polars-utils 0.43.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde",
  "simdutf8",
- "snap",
  "streaming-decompression",
- "zstd",
 ]
 
 [[package]]
